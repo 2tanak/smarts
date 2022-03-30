@@ -1,0 +1,140 @@
+
+.faq {
+    padding-bottom: 75px;
+    padding-top: 70px;
+
+    h3.title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: normal;
+        text-transform: uppercase;
+        color: #343E51;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 75px;
+
+        &._left {
+            text-align: left;
+            justify-content: flex-start;
+            padding: 0;
+
+            &:after {
+                left: 0;
+                transform: unset;
+            }
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: calc(100% + 20px);
+            width: 70px;
+            height: 4px;
+            background: #6AC142;
+            left: 50%;
+            -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+        }
+    }
+
+    .faq_form {
+
+        .input {
+            p {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                color: #B3B7C8;
+                padding-left: 30px;
+            }
+        }
+
+        button {
+            padding: 0 80px;
+        }
+
+        ._dbl_block {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 30px;
+
+        }
+    }
+
+    .accardion_block {
+        padding-bottom: 80px;
+        margin-bottom: 80px;
+        border-bottom: 1px solid #EBEBEB;
+    }
+}
+
+
+.accardion_block{
+    margin-top: 80px;
+    .accardion_element{
+        padding: 15px 0;
+
+        &.active{
+            h3{
+                &::before{
+                    background: #6AC142;
+                }
+                &::after{
+                    content: "\F068";
+                }
+            }
+        }
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #25232B;
+            padding-left: 40px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            transition: all .3s;
+            cursor: pointer;
+
+            &::before{
+                content: '';
+                width: 20px;
+                height: 20px;
+                background: #66646D;
+                position: absolute;
+                left: 0;
+            }
+            &:after{
+                content: "\f067";
+                font: normal normal normal 14px/1 FontAwesome;
+                color: #fff;
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: 4px;
+                top: 4px;
+            }
+        }
+        div{
+            display: none;
+            padding-top: 20px;
+        }
+
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #66646D;
+            margin: 0;
+        }
+    }
+}

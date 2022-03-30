@@ -1,0 +1,1125 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700&display=swap');
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Medium.eot');
+    src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+        url('/fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Medium.woff') format('woff'),
+        url('/fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Heavy.eot');
+    src: local('SF Pro Display Heavy'), local('SFProDisplay-Heavy'),
+        url('/fonts/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Heavy.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Heavy.woff') format('woff'),
+        url('/fonts/SFProDisplay-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-UltralightItalic.eot');
+    src: local('SF Pro Display UltralightItalic'), local('SFProDisplay-UltralightItalic'),
+        url('/fonts/SFProDisplay-UltralightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-UltralightItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-UltralightItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-UltralightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-RegularItalic.eot');
+    src: local('SF Pro Display Regular Italic'), local('SFProDisplay-RegularItalic'),
+        url('/fonts/SFProDisplay-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-RegularItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-RegularItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Thin.eot');
+    src: local('SF Pro Display Thin'), local('SFProDisplay-Thin'),
+        url('/fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Thin.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Thin.woff') format('woff'),
+        url('/fonts/SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Light.eot');
+    src: local('SF Pro Display Light'), local('SFProDisplay-Light'),
+        url('/fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Light.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Light.woff') format('woff'),
+        url('/fonts/SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-BlackItalic.eot');
+    src: local('SF Pro Display Black Italic'), local('SFProDisplay-BlackItalic'),
+        url('/fonts/SFProDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-BlackItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-BlackItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Bold.eot');
+    src: local('SF Pro Display Bold'), local('SFProDisplay-Bold'),
+        url('/fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Bold.woff') format('woff'),
+        url('/fonts/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Black.eot');
+    src: local('SF Pro Display Black'), local('SFProDisplay-Black'),
+        url('/fonts/SFProDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Black.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Black.woff') format('woff'),
+        url('/fonts/SFProDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-SemiboldItalic.eot');
+    src: local('SF Pro Display SemiboldItalic'), local('SFProDisplay-SemiboldItalic'),
+        url('/fonts/SFProDisplay-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-SemiboldItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-SemiboldItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Ultralight.eot');
+    src: local('SF Pro Display Ultralight'), local('SFProDisplay-Ultralight'),
+        url('/fonts/SFProDisplay-Ultralight.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Ultralight.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Ultralight.woff') format('woff'),
+        url('/fonts/SFProDisplay-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-LightItalic.eot');
+    src: local('SF Pro Display LightItalic'), local('SFProDisplay-LightItalic'),
+        url('/fonts/SFProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-LightItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-LightItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-ThinItalic.eot');
+    src: local('SF Pro Display ThinItalic'), local('SFProDisplay-ThinItalic'),
+        url('/fonts/SFProDisplay-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-ThinItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-ThinItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-MediumItalic.eot');
+    src: local('SF Pro Display MediumItalic'), local('SFProDisplay-MediumItalic'),
+        url('/fonts/SFProDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-MediumItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-MediumItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Semibold.eot');
+    src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
+        url('/fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Semibold.woff') format('woff'),
+        url('/fonts/SFProDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-HeavyItalic.eot');
+    src: local('SF Pro Display HeavyItalic'), local('SFProDisplay-HeavyItalic'),
+        url('/fonts/SFProDisplay-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-HeavyItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-HeavyItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-Regular.eot');
+    src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+        url('/fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-Regular.woff') format('woff'),
+        url('/fonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('/fonts/SFProDisplay-BoldItalic.eot');
+    src: local('SF Pro Display BoldItalic'), local('SFProDisplay-BoldItalic'),
+        url('/fonts/SFProDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/SFProDisplay-BoldItalic.woff2') format('woff2'),
+        url('/fonts/SFProDisplay-BoldItalic.woff') format('woff'),
+        url('/fonts/SFProDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+// Bootstrap
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~select2/dist/css/select2.min.css";
+@import "~swiper/css/swiper.min.css";
+@import "~simple-lightbox/dist/simpleLightbox.min.css";
+
+// Variables
+
+@import './mixin';
+@import "./variables";
+@import './element';
+@import './card';
+
+// View style
+
+@import "_view/main";
+@import "_view/view";
+@import "_view/discipline";
+@import "_view/profile";
+@import "_view/contact";
+@import "_view/regis";
+@import "_view/modal";
+@import "_view/faq";
+
+.btn {
+    &.button_green {
+        background: #6AC142;
+        color: #fff;
+        min-width: 85px;
+
+        &:hover {
+            background: #559D33;
+        }
+    }
+
+    &.button_yellow {
+        background: #FFC020;
+        color: #fff;
+        width: 85px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.reset_password-page{
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+
+    button{
+        width: 220px;
+    }
+
+    .send{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #343E51;
+        margin-bottom: 30px;
+
+        span{
+            color: #6AC142
+        }
+    }
+
+    .more{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #677083;
+        width: max-content;
+
+        @include center('x');
+
+        a{
+            margin-left: 10px;
+            color: #2D9CDB;
+        }
+    }
+
+    .title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 36px;
+        color: #343E51;
+        position: relative;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+
+        &:after{
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background: #6AC142;
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    button{
+        margin: auto;
+    }
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: calc(100vh - 150px);
+
+    .line_status{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 9px;
+        width: 50%;
+        background: #6AC142;
+    }
+
+    .global_checkbox{
+        margin: 0;
+    }
+
+    .grid-checkbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        width: 400px;
+        margin: auto
+    }
+
+    .variant_card {
+        width: 560px;
+        padding: 30px;
+        background: #FFFFFF;
+        box-shadow: 0px 9px 24px rgba(58, 74, 88, 0.1);
+        border-radius: 22px;
+        text-align: center;
+
+        .button_green-border{
+            min-width: 165px;
+        }
+
+        .button-green{
+            height: 45px;
+            max-width: 160px;
+
+            @include center('x')
+        }
+
+        .text{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 30px;
+            color: #343E51;
+            margin-bottom: 20px;
+        }
+
+        .global_select{
+            width: 380px;
+
+            @include center('x');
+        }
+
+        .level{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 35px;
+
+            p{
+                margin: 0 10px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 30px;
+                display: flex;
+                align-items: center;
+                color: #343E51;
+
+                span{
+                    opacity: .6;
+                }
+            }
+        }
+    }
+}
+
+.univerProgramFilterList {
+    display: flex;
+    flex-wrap: wrap;
+
+    .univerProgramFilterItem {
+        margin-bottom: 10px;
+        background: #6AC142;
+        border-radius: 100px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        margin-right: 10px;
+
+        .univerProgramFilterItemText {
+            margin-right: 20px;
+            font-size: 14px;
+        }
+
+        .univerProgramFilterItemClose {
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            flex: none;
+            border: none;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+body {
+    font-family: SF Pro Display;
+
+    &.hidden {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none !important;
+        transition: all .3s;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+}
+
+* {
+
+    //transition: all .3s;
+    &:focus {
+        outline: none !important;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #6AC142;
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: rgba(243, 244, 246, 0);
+    }
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background-color: rgba(243, 244, 246, 0);
+    }
+
+    @include phones {
+        &::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+    }
+}
+
+.not_found{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 49px rgba(58, 74, 88, 0.1);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 25px;
+
+    h4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 26px;
+        color: #343E51;
+    }
+
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #343E51;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li{
+            padding-left: 15px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 25px;
+            color: #343E51;
+            position: relative;
+
+            &:after{
+                width: 5px;
+                height: 5px;
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 10px;
+                border-radius: 50%;
+                background: #6AC142;
+            }
+        }
+    }
+}
+
+.main-content {
+    min-height: calc(100vh - 260px);
+}
+
+.menu-block {
+    @include flex(jsb);
+
+    background: #FFFFFF;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 27px rgba(110, 132, 152, 0.1);
+    padding-left: 60px;
+    padding-right: 150px;
+
+    @include respons() {
+        padding: 0 50px;
+    }
+
+    .__auth {
+        @include flex();
+        padding-left: 65px;
+        padding-right: 20px;
+
+        span {
+            font-size: 14px;
+            margin: 0 10px;
+            line-height: 24px;
+            color: #ADB0B6;
+        }
+
+        a {
+            &:last-child {
+                font-size: 15px;
+                line-height: 24px;
+                color: #343E51;
+
+                &:hover {
+                    color: #6AC142;
+                }
+            }
+        }
+    }
+
+    .__select {
+        @include flex();
+
+        &>div {
+            margin-left: 20px;
+        }
+    }
+
+    .__rigth {
+        @include flex();
+    }
+
+    .global_select {
+        .select2-container--default .select2-selection--single {
+            border: 1px solid #343E51;
+            box-sizing: border-box;
+            border-radius: 66px;
+            background: none;
+            padding: 0 10px;
+
+            .select2-selection__arrow {
+                right: 5px;
+            }
+        }
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        @include flex();
+
+        li {
+            list-style: none;
+            margin: 0 25px;
+
+            &.active {
+                a {
+                    color: #6AC142;
+                }
+            }
+
+            @include respons {
+                margin: 0 15px;
+            }
+
+            a {
+                font-size: 14px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #0A0A0A;
+                font-weight: 500;
+                white-space: nowrap;
+
+                &:hover {
+                    color: #6AC142;
+                }
+            }
+        }
+    }
+}
+
+.select2-dropdown.select2-dropdown--below {
+    border: 0;
+    box-shadow: 0px 25px 49px rgba(58, 74, 88, 0.1);
+    ;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: #6AC142;
+}
+
+.error {
+    padding-top: 70px;
+}
+
+.error_block {
+    text-align: center;
+    padding-top: 10vh;
+    height: calc(100vh - 447px);
+    min-height: 300px;
+
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 150px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 15px;
+        color: #232530;
+
+        span {
+            font-size: 160px;
+            color: #6AC142;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: #232530;
+        margin-bottom: 15px;
+    }
+
+    span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #646A7C;
+    }
+}
+
+
+.footer {
+    background: #6AC142;
+    min-height: 50px;
+    padding: 5px 170px;
+    margin-top: 110px;
+
+    @include flex(jsb);
+
+    p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+
+        li {
+            padding: 0;
+            list-style: none;
+            margin-left: 20px;
+
+            a {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 25px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+
+
+.button-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #27AE60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 999;
+
+    &.open {
+        opacity: 1;
+    }
+
+    &:hover {
+        background: #27AE60;
+    }
+
+    i {
+        font-size: 30px;
+        position: relative;
+        top: -2px;
+        color: #fff;
+    }
+}
+
+.filterBtnWrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 40px;
+}
+
+.filterBtn {
+    position: relative;
+    padding: 5px 25px;
+    height: unset;
+    background: #6AC142;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    transition: 0.3s ease;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: -4px;
+        left: 50%;
+        transform: translate(-50%, 0) rotate(45deg);
+        width: 10px;
+        height: 10px;
+        border-radius: 3px;
+        background: #6AC142;
+        transition: 0.3s ease;
+    }
+
+    &:hover {
+        background: #559D33;
+
+        &:before {
+            background: #559D33;
+        }
+    }
+
+    span {
+        display: block;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .menu-block {
+        .__auth {
+            padding-left: 20px;
+        }
+    }
+}
+
+.studentsTeachers {
+    .studentsTeachersRow {
+        margin-top: 20px;
+        display: flex;
+
+        .studentsTeachersCol {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &.students {
+                padding-right: 30px;
+                border-right: 1px solid #F3F3F3;
+            }
+
+            &.teachers {
+                padding-left: 30px;
+            }
+
+            .studentsTeachersColLeft {
+                .studentsTeachersColItem {
+                    margin-bottom: 10px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    .studentsTeachersColItemTitle {
+                        font-size: 14px;
+                    }
+
+                    .studentsTeachersColItemNum {
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #2D9CDB;
+                    }
+
+                    &.studentsTeachersColAll {
+                        .studentsTeachersColItemTitle {
+                            font-size: 16px;
+                        }
+
+                        .studentsTeachersColItemNum {
+                            font-size: 25px;
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .studentsTeachersColItemNum {
+                            color: #6AC142;
+                        }
+                    }
+
+                    &:last-child {
+                        .studentsTeachersColItemNum {
+                            color: #FFC120;
+                        }
+                    }
+                }
+            }
+
+            .studentsTeachersColRight {
+                display: flex;
+                align-items: center;
+                flex: none;
+                position: relative;
+
+                .diagram {
+                    width: 170px;
+                    height: 170px;
+                }
+
+                .count {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-weight: bold;
+                    font-size: 20px;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+
+.univerInfo {
+    margin-bottom: 20px;
+
+    .univerInfoItem {
+        margin-bottom: 10px;
+
+        .univerInfoItemTitle {
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .univerInfoItemBody {
+            font-weight: 500;
+            font-size: 16px;
+            color: #27AE60;
+        }
+    }
+}
+
+.unvierCost {
+    .univerCostCitizen {
+        margin-bottom: 35px;
+    }
+
+    .unvierCostTitle {
+        margin-bottom: 15px;
+    }
+
+    .univerCostList {
+        .univerCostItem {
+            padding: 10px 18px;
+            background: #FFFFFF;
+            box-shadow: 0px 9px 24px rgba(58, 74, 88, 0.1);
+            border-radius: 8px;
+
+            .univerCostItemTitle {
+                font-weight: 500;
+                font-size: 16px;
+            }
+
+            .univerCostItemNum {
+                color: #6AC142;
+
+                span {
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .unvierCostInfo {
+        font-size: 12px;
+        color: #607656;
+        background: rgba(106, 193, 66, 0.15);
+        padding: 8px 17px;
+        margin-top: 20px;
+    }
+}
+
+.social {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.__sidebar .sidebar-card {
+
+
+    .__social{
+        ul{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            list-style: none;
+
+            li{
+                margin-right: 10px;
+                border-radius: 3px;
+                overflow: hidden;
+
+                img{
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    .socialBlock {
+        a {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.extraItem {
+    background: #fff;
+    box-shadow: 0px 9px 24px rgba(58, 74, 88, 0.1);
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 15px 17px;
+
+    img {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+}
+
+.time {
+    table {
+        width: 100%;
+
+        td {
+            width: 50%;
+            padding: 10px 17px;
+        }
+
+        thead {
+            td {
+                background: rgba(106, 193, 66, 0.15);
+                border-right: 1px solid #fff;
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+
+        tbody {
+            td:last-child {
+                color: #6AC142;
+            }
+        }
+    }
+}
+
+.requirements {
+    .requirementsItem {
+        border-bottom: 1px solid #E3E3E3;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &.payment {
+            .requirementsItemText {
+                color: #6AC142;
+            }
+        }
+    }
+
+    .requirementsItemFooter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+
+        .requirementsItemFooterTitle {
+            font-weight: bold;
+        }
+    }
+}
+
+.studentLifePage {
+    .__content {
+        .__text {
+            p {
+                display: block;
+            }
+        }
+    }
+}
+
+.univerProgramFilterItemTop {
+    display: none;
+}

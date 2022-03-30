@@ -1,0 +1,114 @@
+.register {
+    padding-top: 60px;
+
+    .img {
+        width: 540px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .register_block{
+        display: grid;
+        grid-template-columns: 540px 1fr;
+        grid-gap: 60px;
+    }
+
+
+    .global_input{
+        display: block;
+
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: normal;
+            margin-bottom: 5px;
+            color: #343E51;
+        }
+        input{
+            background: rgba(0, 0, 0, 0.0001);
+            border: 1px solid #EBEBEB;
+            box-sizing: border-box;
+            height: 40px;
+            width: 100%;
+            margin-bottom: 25px;
+            padding: 0 30px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: #343E51;
+            border-radius: 0;
+
+            &:focus{
+                outline: none;
+                border-color: #6AC142
+            }
+
+            &::placeholder{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                color: #B3B7C8;
+            }
+        }
+        textarea{
+            background: rgba(0, 0, 0, 0.0001);
+            border: 1px solid #EBEBEB;
+            box-sizing: border-box;
+            height: 300px;
+            width: 100%;
+            margin-bottom: 25px;
+            padding: 30px;
+
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            color: #343E51;
+
+            &:focus{
+                outline: none;
+                border-color: #6AC142
+            }
+
+            &::placeholder{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                color: #B3B7C8;
+            }
+        }
+    }
+
+
+
+    form {
+        width: 100%;
+
+        .global_checkbox {
+            margin-bottom: 80px;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            color: #343E51;
+            position: relative;
+            margin-bottom: 70px;
+            text-transform: uppercase;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: calc(100% + 10px);
+                width: 70px;
+                height: 4px;
+                background: #6AC142;
+                left: 0;
+            }
+        }
+    }
+}

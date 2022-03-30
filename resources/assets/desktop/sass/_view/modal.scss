@@ -1,0 +1,133 @@
+
+.modal_block {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+
+    &.open {
+        opacity: 1;
+        visibility: unset;
+    }
+
+    .close_icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+
+        i {
+            font-size: 22px;
+        }
+    }
+
+    .close_window {
+        position: absolute;
+        top: 0;
+        width: 0;
+        background: rgba(0, 0, 0, 0.319);
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .city_list__block {
+        position: relative;
+        background: #FFFFFF;
+        width: 360px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 20px 35px;
+
+        .city_list {
+            ul {
+                margin: 0;
+                padding: 0;
+                padding-top: 20px;
+
+                h3 {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 36px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #000000;
+                }
+
+                li {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+
+                    img {
+                        margin-right: 10px;
+                        height: 20px;
+                    }
+
+                    a {
+                        font-size: 18px;
+                        line-height: 36px;
+                        color: #000000;
+                        display: flex;
+                        align-items: center;
+
+                        &:hover {
+                            color: #6AC142;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modal_card {
+        position: relative;
+        background: #FFFFFF;
+        width: 960px;
+
+        .img {
+            width: 100%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        form {
+            padding: 45px;
+            padding-left: 25px;
+
+            h3 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 36px;
+                letter-spacing: 1.5px;
+                margin-bottom: 30px;
+                color: #191919;
+            }
+
+            span {
+                display: block;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+                color: #4C4C4C;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

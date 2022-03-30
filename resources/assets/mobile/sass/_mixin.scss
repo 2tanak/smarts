@@ -1,0 +1,61 @@
+@mixin flex ($c : '') {
+    display: flex;
+    align-items: center;
+
+    @if($c=='jc') {
+        justify-content: center;
+    }
+
+    @if($c=='jsb') {
+        justify-content: space-between;
+    }
+
+    @if($c=='jsa') {
+        justify-content: space-around;
+    }
+}
+
+@mixin center ($c : '', $pos: relative) {
+    position: $pos;
+
+    @if($c=='x') {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    @if($c=='y') {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    @if($c=='') {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@mixin hover($color: #6AC142){
+    transition: all .3s;
+    &:hover{
+        color: $color;
+    }
+}
+
+@mixin phones {
+    @media screen and (max-width: 500px) {
+        @content
+    }
+}
+
+@mixin respons($width) {
+    @media screen and (max-width: $width + px) {
+        @content
+    }
+}
+
+@mixin respons_height($width) {
+    @media screen and (max-height: $width + px) {
+        @content
+    }
+}
